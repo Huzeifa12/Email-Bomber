@@ -1,8 +1,9 @@
 import smtplib
+import passwords as pwd
 
-my_email="dorcasafranie1@gmail.com"
-password="mgwf kcia lppj hkdt"
-recepient="lydiapratt0@gmail.com"
+my_email=pwd.my_email
+password=pwd.password
+recepient=pwd.recepient
 
 server_connection=smtplib.SMTP("smtp.gmail.com",587)
 
